@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hem Kishore Pradhan - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <h2>Loading Portfolio...</h2>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">HKP</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-text">Hi, I'm </span>
+                        <span class="name-highlight">Hem Kishore Pradhan</span>
+                    </h1>
+                    <p class="hero-subtitle">Full Stack Developer & Cybersecurity Enthusiast</p>
+                    <p class="hero-description">
+                        Passionate about creating secure, scalable web applications and exploring the depths of cybersecurity.
+                        Currently pursuing B.Tech in Computer Science with hands-on experience in modern web technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-code"></i> View Work
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/hemkishorepradhan" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/silveranon323" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:hemkishore009jsr@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+              <div class="hero-visual">
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQG_HgLU6iCt0A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711285916060?e=1757548800&v=beta&t=jhRj4TI3C57tnmhRX4NP8icxR0e6wb6Od2Db1bjTX8A"
+                 alt="Profile"
+                 style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
+        </div>
+        <div class="floating-elements">
+            <div class="floating-icon" style="--delay: 0s"><i class="fab fa-java"></i></div>
+            <div class="floating-icon" style="--delay: 1s"><i class="fab fa-python"></i></div>
+            <div class="floating-icon" style="--delay: 2s"><i class="fas fa-shield-alt"></i></div>
+            <div class="floating-icon" style="--delay: 3s"><i class="fab fa-react"></i></div>
+        </div>
+    </div>
+</div>
+
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span>Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate Computer Science student at ITER, Siksha 'O' Anusandhan, with a strong foundation in 
+                        full-stack development and cybersecurity. My journey began with curiosity about how technology works 
+                        and evolved into a dedicated pursuit of creating secure, innovative solutions.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">388+</div>
+                            <div class="stat-label">LeetCode Problems</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">17</div>
+                            <div class="stat-label">LeetCode Badges</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Critical Vulnerabilities Found</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Major Projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-timeline">
+                    <h3 class="timeline-title">Education Journey</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.Tech Computer Science</h4>
+                                <p class="timeline-institution">ITER, Siksha 'O' Anusandhan</p>
+                                <p class="timeline-date">Nov 2021 - June 2025</p>
+                                <p class="timeline-location">Bhubaneswar, Odisha</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Intermediate: Pure Science</h4>
+                                <p class="timeline-institution">Chinmaya Vidyalaya, Bistupur</p>
+                                <p class="timeline-date">May 2019 - April 2021</p>
+                                <p class="timeline-location">Jamshedpur, Jharkhand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Cybersecurity and Network Security Trainee</h3>
+                            <div class="company-info">
+                                <span class="company">EY GDS</span>
+                                <span class="duration">June 2024 – August 2024</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="achievement-list">
+                                <li>Developed scalable Identity and Access Management (IAM) solution with MFA and ABAC</li>
+                                <li>Implemented real-time threat detection capabilities using distributed system design</li>
+                                <li>Selected among top 10 teams to present project to EY leadership</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">IAM</span>
+                                <span class="tech-tag">MFA</span>
+                                <span class="tech-tag">ABAC</span>
+                                <span class="tech-tag">Threat Detection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Front End Developer Intern</h3>
+                            <div class="company-info">
+                                <span class="company">Blem CRM</span>
+                                <span class="duration">May 2024 – June 2024</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="achievement-list">
+                                <li>Built visually appealing customer-centric landing page using Next.js</li>
+                                <li>Enhanced user engagement and satisfaction through modern UI/UX</li>
+                                <li>Collaborated with cross-functional teams using Confluence</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">UI/UX</span>
+                                <span class="tech-tag">Confluence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Fullstack Web Developer Intern</h3>
+                            <div class="company-info">
+                                <span class="company">Yellowsand Consultancies LLC</span>
+                                <span class="duration">Feb 2023 – March 2023</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="achievement-list">
+                                <li>Developed and managed innovative web frameworks end-to-end</li>
+                                <li>Collaborated with cross-functional teams to streamline workflows</li>
+                                <li>Ensured timely project delivery in fast-paced environment</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Full Stack</span>
+                                <span class="tech-tag">Web Frameworks</span>
+                                <span class="tech-tag">Team Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Open Source Contributor</h3>
+                            <div class="company-info">
+                                <span class="company">DigitalOcean - Hacktoberfest</span>
+                                <span class="duration">Oct 2022 – Nov 2022</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="achievement-list">
+                                <li>Contributed to multiple open-source projects globally</li>
+                                <li>Submitted 4 successful pull requests across Java repositories</li>
+                                <li>Participated in global Hacktoberfest 2022 challenge</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Open Source</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/silveranon323/AudioMonk-FrontEnd" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Music Genre Classification System</h3>
+                        <p class="project-description">
+                            Deep learning system using CNNs on Mel spectrograms achieving 85% accuracy. 
+                            Built with Flask REST API for real-time predictions and song recommendations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-date">May 2025</div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Assessmate - Online Exam Portal</h3>
+                        <p class="project-description">
+                            Secure full-stack exam portal with dynamic question rendering, analytics tracking, 
+                            and role-based permissions. Features automated evaluation and real-time management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Thymeleaf</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                        <div class="project-date">December 2024</div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/silveranon323/CRUNCH-ADMIN" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Crunch Admin - Security Tool</h3>
+                        <p class="project-description">
+                            Network security tool implementing client-server architecture to simulate 
+                            dictionary generation and brute-force attack behaviors with interactive CLI.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Socket Programming</span>
+                            <span class="tech-tag">Networking</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                        <div class="project-date">September 2023</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-cuttlefish"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML/CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Spring Boot</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MySQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Docker</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Cybersecurity</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements Section -->
+            <div class="achievements">
+                <h3 class="achievements-title">Key Achievements</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>LeetCode Excellence</h4>
+                            <p>Earned 17 badges and solved 388+ problems with 365-day consistency streak</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>Security Research</h4>
+                            <p>Discovered critical vulnerabilities in live applications through responsible disclosure</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>Certifications</h4>
+                            <p>AWS Academy Graduate, Google Cybersecurity Foundations, EY Bootcamp</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>Community Impact</h4>
+                            <p>Volunteered at SOA Proxima 2025, contributed to open-source projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p class="contact-description">
+                        I'm always open to discussing new opportunities, interesting projects, 
+                        or just having a chat about technology and innovation.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>hemkishore009jsr@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 9798044375</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Jamshedpur, Jharkhand, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://linkedin.com/in/hemkishorepradhan" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/silveranon323" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Hem Kishore Pradhan. All rights reserved.</p>
+                    <p>Built with passion using HTML, CSS & JavaScript</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
